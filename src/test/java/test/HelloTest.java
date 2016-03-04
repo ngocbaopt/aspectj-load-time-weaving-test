@@ -12,7 +12,6 @@ public class HelloTest extends AbstractJUnit4SpringContextTests {
 
 	@Test
 	public void test() {
-//		fail("Not yet implemented");
 		System.out.println("Testing JUnit");
 	}
 
