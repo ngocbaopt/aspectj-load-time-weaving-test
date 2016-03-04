@@ -10,14 +10,14 @@ public class Hello {
 	public void hello() {
 		System.out.println("Hello World");
 		helloPrivate();
-		println("Bao test annotation");
+		println("Test annotation");
 	}
 	
 	private void helloPrivate() {
 		System.out.println("I'm at private");
 	}
 	
-	@Path(value = "Bao")
+	@Path(value = "test")
 	public void println(String args) {
 		System.out.println(args);
 	}
